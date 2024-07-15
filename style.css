@@ -38,7 +38,7 @@ header{
     display: none;
 }
 
-ul li:hover{
+.hide:hover{
     cursor: pointer;
     border-bottom: 1px solid black;
     
@@ -204,7 +204,7 @@ ul li:hover{
         
     }
     .middle2 h1{
-        font-size: 19px;
+        font-size: 19gpx;
     }
 }
 
