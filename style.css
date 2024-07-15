@@ -116,7 +116,7 @@ header{
 }
 .img{
     margin-bottom: 30px;
-    /* margin-right: 190px; */
+    
     height: 300px;
     width: 300px;
     border-radius:50%;
@@ -204,7 +204,7 @@ header{
         
     }
     .middle2 h1{
-        font-size: 19gpx;
+        font-size: 19px;
     }
 }
 
