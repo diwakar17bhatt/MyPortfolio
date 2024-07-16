@@ -5,6 +5,8 @@
 header{
     height: 80px;
     box-shadow: 0.1px 0.1px 20px rgba(0,0,0,0.1);
+    background-color: #222831;
+    color: white;
 }
 .nav{
     height: 80px;
@@ -13,6 +15,7 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-left: 10vw;
+   
    
 }
 .nav ul{
@@ -25,6 +28,7 @@ header{
     font-size: 19px;
 }
 .port{
+    margin-top: -17px;
     height: 100%;
     font-family: "Poppins", sans-serif;
     list-style: none;
@@ -32,6 +36,7 @@ header{
     align-items: center;
     font-size: 19px;
     cursor: pointer;
+    
 }
 .drop{
     font-size: 23px;
@@ -40,7 +45,7 @@ header{
 
 .hide:hover{
     cursor: pointer;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     
 }
 
@@ -101,7 +106,7 @@ header{
     border: none;
     border-radius: 20px;
     color: white;
-    background-color: black;
+    background-color: #222831;
     cursor: pointer;
 }
 .box3{
@@ -123,8 +128,248 @@ header{
     background-image: url("profile.jpg");
     background-size: cover;
 }    
-
 .middle2{
+    height: 400px;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    border-top: 1px solid black;
+    /* box-shadow: 0.1px 0.1px 20px rgba(0,0,0,0.1); */
+    
+    
+   
+    
+    
+}
+.mbox{
+    height: 250px;
+    width: 90%;
+    gap: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    
+
+}
+
+.mbox1{
+    height: 250px;
+    width: 650px;
+    box-shadow: 0.1px 0.1px 20px rgba(0,0,0,0.1);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mbox2{
+    height: 250px;
+    width: 650px;
+    box-shadow: 0.1px 0.1px 20px rgba(0,0,0,0.1);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mbox3{
+    height: 250px;
+    width: 650px;
+    box-shadow: 0.1px 0.1px 20px rgba(0,0,0,0.1);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mbox div i{
+    font-size: 60px;
+}
+.mbox div h3{
+    font-size: 30px;
+}
+
+.mbox div p{
+    font-size: 20px;
+    text-align: center;
+}
+.skills{
+    
+    
+    font-size: 30px;
+    
+}
+.middle3{
+    
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+    /* box-shadow: 0.1px 0.1px 20px rgba(0,0,0,0.1); */
+}
+.middle3 p{
+  
+
+    font-size: 30px;
+    /* background-color: #797888;
+    border-radius: 20px; */
+}
+.mboxr{
+    height: 250px;
+    width: 90%;
+    gap: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -30px;
+
+}
+.mboxr1{
+    height: 250px;
+    width: 650px;
+    box-shadow: 0.1px 0.1px 20px rgba(0,0,0,0.1);
+
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mboxr div h3{
+    font-size: 30px;
+}
+
+.middle4{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    background-color: #31363F;
+    color: white;
+}
+.middle4 p{
+    font-size: 30px;
+   
+    padding-top: 10px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    gap: 10px;
+ 
+}
+.name input{
+    height: 80px;
+    width: 35vw;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gap{
+  
+    padding-left: 25px;
+}
+.email input{
+    height: 50px;
+    width: 35vw;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.pass{
+   
+    display: flex;
+    align-items: center;
+    height: 50px;
+    gap: 10px;
+    height: 45px;
+    width: 35vw;
+    
+}
+.pass input{
+    width: 35vw;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+.middle4 button{
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    border: none;
+}
+.passbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+}
+.eye{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    margin-left: 0.5vw;
+    cursor: pointer;
+}
+.eye .hide{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.middle9{
+    
     height: 100px;
     width: 100%;
     background-color: black;
@@ -133,7 +378,8 @@ header{
     align-items: center;
 
 }
-.middle2 h1{
+.middle9 h1{
+    font-size: 30px;
     color: white;
 }
 
@@ -156,15 +402,14 @@ header{
     .drop{
         display: block;
     }
+    
     .middle{
+        height: 800px;
         margin-top: -15px;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-      
-       
-       
     }
     .box1{
         
@@ -197,13 +442,125 @@ header{
     .box3{
         height: 200px;
         width: 200px;
+        
     }
     .box3 .img{
         height: 100px;
         width: 100px;
         
     }
-    .middle2 h1{
+    .middle2{
+        padding-top: 10px;
+        
+        height: 750px;
+        gap: 0px;
+        
+        
+      
+    }
+    .mbox{
+        
+        flex-direction: column;
+        height: 600px;
+       
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+       
+    }
+    .mbox1, .mbox2, .mbox3{
+       
+        width: 90vw;
+        height: 200px;
+        
+    }
+    .mbox div i{
+        font-size: 40px;
+    }
+    .mbox div h3{
+        font-size: 30px;
+    }
+    .mbox div p{
+        font-size: 15px;
+    }
+
+
+    .middle3{
+        height: 350px;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 0px;
+        
+    }
+
+    .mboxr{
+        height: 200px;
+        
+    }
+    .mboxr1{
+
+        width: 90vw;
+        height: 200px;
+        
+    }
+
+
+
+    .mboxr div h3{
+        font-size: 20px;
+    }
+    .middle4 p{
+        font-size: 20px;
+    }
+    .gap{
+        
+        width: 90vw;
+        padding: 0;
+    }
+    .name{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
+    }
+    .name input{
+        width: 80%;
+    }
+    .email{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .email input{
+        
+        width: 80%;
+    }
+    .passbox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        gap: 0;
+        
+    }
+    .pass{
+        margin-left: 28px;
+        
+        width: 80%;
+        gap: 0;
+    }
+    .pass input{
+        width: 100%;
+    }
+    .eye{
+        margin: 0;
+        padding: 0;
+    }
+
+    .middle9 h1{
         font-size: 19px;
     }
 }
