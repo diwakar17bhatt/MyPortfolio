@@ -242,12 +242,20 @@ header .hid{
     height: 250px;
     width: 650px;
     box-shadow: 0.1px 0.1px 20px rgba(0,0,0,0.1);
-
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: 60px;
+}
+.mboxr1 i{
+    font-size: 80px;
+}
+.mboxr1 a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
 }
 .mboxr div h3{
     font-size: 30px;
@@ -569,10 +577,17 @@ header .hid{
 
         width: 90vw;
         height: 200px;
-        
+        line-height: 40px;
     }
 
-
+    .mboxr1 i{
+        font-size: 50px;
+    }
+    .mboxr1 a{
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+    }
 
     .mboxr div h3{
         font-size: 20px;
